@@ -1,0 +1,109 @@
+/* for xl screens */
+
+@media (min-width: 1200px) {
+    .banner {
+        padding: 1.527rem 0;
+    }
+
+}
+
+/* for large screens */
+
+@media (min-width: 992px) {
+    .banner {
+        padding: 4.527rem 0;
+    }
+
+}
+
+/* for medium screens */
+
+@media (min-width: 768px) {
+    .banner {
+        padding: 2.527rem 0;
+    }
+
+}
+
+/* for small screens */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    #navbar .container ul {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fefefe;
+        overflow: hidden;
+        padding-left: 0;
+
+    }
+
+    ul li {
+        padding: 1rem;
+    }
+
+    .banner {
+        padding: 2rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+
+}
+
+
+@media (max-width: 400px) {
+    .section-2p{
+        padding-top: 0.752rem;
+    }
+    .section-2p2{
+        padding-bottom: 0.2753rem;
+    }
+
+    .producth2 {
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 0rem;
+    }
+
+    .prod3 {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .about-section .img-fluid {
+        max-width: 90%;
+    }
+
+    .garnish {
+        font-size: 1.544rem;
+        padding-top: 0rem;
+        padding-bottom: 0.9752rem;
+    }
+
+    .FOH3 {
+        font-size: 1.575rem;
+    }
+
+    .Concern {
+        font-size: 1.575rem;
+    }
+
+
+}
